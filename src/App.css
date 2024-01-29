@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: red;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid red;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  height:525px;
+  animation: slideUp 0.5s ease-in-out;
+}
+
+.app-chatbot-button {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #d80100;
+}
+.chatbot-button-img {
+  width: 35px;
+  height: 40px;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+.bubbleContainer {
+  
+}
